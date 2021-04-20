@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+
+#person:
+#  name: John
+#  age: 18
+#  type: true
+#  birth: 2021/12/27
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - name1
+#    - name2
+#  dog:
+#    name: max
+#    age: 2
+
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8084
+spring:
+  profiles: prod

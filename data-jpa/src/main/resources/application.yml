@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    username: root
+    password: password
+    url: jdbc:mysql://localhost:3306/jpa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+#      create or update
+      ddl-auto: update
+#      sql info will show in the console
+    show-sql: true
+
+
+
+
+
+#    schema:
+#      - classpath:department.sql
